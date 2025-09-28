@@ -18,30 +18,83 @@
     <!-- Tailwind Css Link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="max-w-7xl mx-auto">
+  <body class="">
     <header>
-<!-- Navbar -->
- <nav class="flex justify-between items-center">
-    <div><img class="h-30 " src="./images/roomzz.png" alt=""></div>
-    <div class="flex justify-between items-center gap-5">
-        <a class="text-[#00809E]" href="">Home</a>
-        <a href="">Services</a>
-        <a href="">About</a>
-        <a href="">News</a>
-        <a href="">Support</a>
-    </div>
-    <div class="flex justify-between items-center gap-5">
-        <p><i class="fa-regular fa-heart"></i></p>
-        <p><i class="fa-regular fa-bell"></i></p>
-        <button class="btn rounded-full text-white bg-[#00809E]"><i class="fa-regular fa-user mr-2"></i> Sign in</button>
-    </div>
- </nav>
+      <!-- Hero with Navbar inside -->
+      <div
+        class="hero h-150 w-full"
+        style="background-image: url('./images/bg-image.jpg')"
+      >
+        <div class="hero-overlay"></div>
+
+        <!-- Navbar (Top) -->
+        <nav
+          class="absolute bg-white/70 backdrop-blur top-0 left-0 w-full px-8  flex justify-between items-center"
+        >
+          <div>
+            <img class="h-40" src="./images/roomzz.png" alt="logo" />
+          </div>
+
+          <div class="flex gap-5 font-semibold">
+            <a class="text-[#00809E]" href="">Home</a>
+            <a href="">Services</a>
+            <a href="">About</a>
+            <a href="">News</a>
+            <a href="">Support</a>
+          </div>
+
+          <div class="flex items-center gap-5">
+            <p><i class="fa-regular fa-heart"></i></p>
+            <p><i class="fa-regular fa-bell"></i></p>
+            <button class="btn rounded-full text-white bg-[#00809E]">
+              <i class="fa-regular fa-user mr-2"></i> Sign in
+            </button>
+          </div>
+        </nav>
+
+        <!-- Hero content -->
+        <div class="hero-content flex flex-col items-center text-center ">
+          <div class=" text-white">
+            <p class="mb-5 text-2xl font-bold">
+              Find and rent the best home anywhere
+            </p>
+          </div>
+
+          <!-- Search Bar -->
+          <div
+            class="bg-white rounded-full  mt-10 px-5 py-6 flex justify-between items-center shadow-lg"
+          >
+          <div class="flex items-center justify-between gap-10">
+            <div class="flex gap-20 justify-between items-center">
+              <p>
+                <i class="fa-solid fa-location-dot mr-2"></i>Search your
+                destination
+              </p>
+              <p><i class="fa-solid fa-book-open-reader"></i></p>
+            </div>
+            
+              <div class="flex items-center justify-between gap-10">
+                <p>
+                  <i class="fa-solid fa-location-dot mr-2"></i> Property Area
+                </p>
+                <button class="btn rounded-full bg-[#E6F2F5]">
+                  <i class="fa-regular fa-square-caret-down"></i>
+                </button>
+              </div>
+              <div class="flex items-center justify-between gap-10">
+                <p><i class="fa-solid fa-arrow-down-z-a mr-2"></i> Filter</p>
+                <button
+                  class="btn rounded-full text-white bg-[#00809E]"
+                >
+                  <i class="fa-solid fa-arrow-down-z-a"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
