@@ -96,19 +96,20 @@
       </div>
     </header>
     <!-- Main Section -->
-    <main class="max-w-7xl mx-auto">
-      <section>
+    <main >
+      <section class="max-w-7xl mx-auto">
         <div class="flex justify-between items-center my-10">
           <h1 class="text-2xl font-bold">
           <span class="text-[#00809E]""> Accommodation</span> For You
         </h1>
-        <a class="text-[#E88969]" href="">View All</a>
+        
+        <a class="text-[#E88969] underline" href="">View All</a>
         </div>
-        <div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
            <!-- Card 1-->
-            <div class="card bg-base-100 w-96 shadow-sm">
+            <div class="card  shadow-sm">
   <figure>
-    <img
+    <img class="w-full rounded-lg h-70"
       src="./images/cardimage-1.png"
       alt="Shoes" />
   </figure>
@@ -119,7 +120,7 @@
     </div>
     <p class="text-[#E88969]">Whole-unit</p>
     <div class="flex items-center gap-4">
-      <img class="h-10" src="./images/profile.jpg" alt="">
+      <img class="h-10 rounded-full" src="./images/profile.jpg" alt="">
       <h1 class="font-bold">Villa in Tetouan</h1>
     </div>
     
@@ -127,9 +128,9 @@
   </div>
 </div>
 <!-- Card -2 -->
- <div class="card bg-base-100 w-96 shadow-sm">
+ <div class="card  shadow-sm">
   <figure>
-    <img
+    <img class="w-full rounded-lg h-70"
       src="./images/cardimage-3.jpg"
       alt="Shoes" />
   </figure>
@@ -140,7 +141,7 @@
     </div>
     <p class="text-[#E88969]">Whole-unit</p>
     <div class="flex items-center gap-4">
-      <img class="h-10" src="./images/profile.jpg" alt="">
+      <img class="h-10 rounded-full" src="./images/profile.jpg" alt="">
       <h1 class="font-bold">Villa in Tetouan</h1>
     </div>
     
@@ -148,10 +149,10 @@
   </div>
 </div>
 <!-- Card -3 -->
- <div class="card bg-base-100 w-96 shadow-sm">
+ <div class="card shadow-sm">
   <figure>
-    <img
-      src="./images/cardimage-1.png"
+    <img class="w-full rounded-lg h-70"
+      src="./images/cardimg-2.jpg"
       alt="Shoes" />
   </figure>
   <div class="card-body">
@@ -161,7 +162,7 @@
     </div>
     <p class="text-[#E88969]">Whole-unit</p>
     <div class="flex items-center gap-4">
-      <img class="h-10" src="./images/profile.jpg" alt="">
+      <img class="h-10 rounded-full" src="./images/profile.jpg" alt="">
       <h1 class="font-bold">Villa in Tetouan</h1>
     </div>
     
@@ -172,6 +173,22 @@
          </div>
 
       </section>
+      <!-- Map Section -->
+       <section class="max-w-7xl mx-auto">
+        <div class="flex my-10">
+          <!-- text div -->
+           <div class="w-[35%] space-y-3 flex flex-col justify-center">
+            <h1 class="text-2xl font-bold">Map With Your</h1>
+            <h1 class="text-2xl font-bold  text-[#00809E]">Location</h1>
+            <p class="text-gray-400">Collaborate with your <span class="text-[#E88969]">location</span> to  <br>
+get accurate map features.</p>
+           </div>
+           <!-- image div -->
+            <div class="w-[65%]">
+              <img class="w-full rounded-lg h-80 bg-cover" src="./images/map.png" alt="">
+            </div>
+        </div>
+       </section>
     </main>
     <footer></footer>
   </body>
